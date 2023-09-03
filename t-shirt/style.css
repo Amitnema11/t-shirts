@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, 
+body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.left{
+    width: 30%;
+    height: 100%;
+    background-color:#041817;
+    color: white;
+}
+
+.right{
+    width: 70%;
+    height: 100%;
+    background-color: burlywood;
+}
+
+.left h1{
+    font-size: 1.5vmax;
+    text-align: center;
+    padding-top: 1vmax;
+}
+.left h2{
+    padding-top: 25vmax;
+    padding-left: 14vmax;
+}
+.left h4{
+    padding-left: 10vmax;
+    color: #000;
+    background-color: yellow;
+}
+
+.right ul{
+    display: flex;
+list-style: none;
+background-color: #FFEA20;
+}
+.right ul li{
+    padding-top: 1vmax;
+    padding-left: 8vmax;
+    padding-bottom: 1vmax;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.right ul li:hover{
+color: rgba(16, 16, 16, 0.614);
+}
+
+.right img{
+    width: 100%;
+    height: 100%;
+}
+
+.right{
+    overflow: hidden;
+}
+
+.container{
+    width: 100%;
+height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.39),rgba(0, 0, 0, 0.4)),url(/t-shirt1.avif);
+    background-image: linear-gradient(black);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.second{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.left2{
+    width: 40%;
+    height: 100%;
+}
+
+.right2{
+    width: 60%;
+    height: 100%;
+    padding: 10vmax;
+    
+}
+
+.left2 img{
+width: 70%;
+height: 80%;
+padding: 5vmax 0 0 7vmax;
+}
+.right2 h1{
+    font-weight: 900;
+}
+
+.third{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.third ul{
+    list-style: none;
+    display: flex;
+}
+
+.third ul li{
+    padding:4vmax 0 0 7vmax ;
+    font-size:1.2vmax ;
+    font-weight: 600;
+    /* position: relative; */
+    cursor: pointer;
+color: grey;
+}
+.third ul li:hover{
+    color: black;
+}
+.third img{
+    width: 30%;
+    padding: 1vmax;
+}
+.third img:hover{
+    /* transform: translateY(-20px); */
+    transform: scale(1.2);
+}
+.prj{
+    padding: 3vmax 0 0 14vmax;
+}
+button{
+    padding: 1vmax 2vmax;
+    border: 1px solid grey;
+    font-size: 1vmax;
+    border-radius: 2vmax;
+    margin-top: 2vmax;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.25s;
+    margin-bottom: 2vmax;
+    
+}
+
+/* button:hover{
+    background-color: rgb(163, 59, 59);
+} */
+
+
+
+.card1 > img{
+    width: 85%;
+    height: 95% ;
+}
+
+.card1 > h3{
+    margin-left:16%;
+
+}
+
+.card2 > img{
+    width: 85%;
+    height: 95% ;
+}
+
+.card2 > h3{
+    margin-left: 16%;
+
+}
+
+.card3 > img{
+    width: 85%;
+    height: 95% ;
+}
+
+.card3 > h3{
+    margin-left:16%;
+
+}
+
+.card4 > img{
+    width: 85%;
+    height: 95% ;
+}
+
+.card4 > h3{
+    margin-left:16%;
+
+}
+
+.card5 > img{
+    width: 85%;
+    height: 95% ;
+}
+
+.card5 > h3{
+    margin-left:16%;
+
+}
+.card6 > img{
+    width: 85%;
+    height: 95% ;
+}
+
+.card6 > h3{
+    margin-left:16%;
+
+}
+
+.card7 > img{
+    width: 85%;
+    height: 95% ;
+}
+
+.card7 > h3{
+    margin-left:16%;
+
+}
+
+.card8 > img{
+    width: 85%;
+    height: 95% ;
+}
+
+.card8 > h3{
+    margin-left:16%;
+
+}
+
+.card9 > img{
+    width: 85%;
+    height: 95% ;
+}
+
+.card9 > h3{
+    margin-left:16%;
+
+}
+
+.bottom{
+    width: 100%;
+    height: 100%;
+    /* background-color: #000; */
+}
+
+
+.main3{
+    background-color: #320A51;
+    width: 100%;
+    height: 120%;
+    color: white;
+    display: flex;
+
+}
+
+.left3{
+    width: 30%;
+    margin: 5vmax;
+}
+.left3 ul{
+    list-style: none;
+margin-top: 2vmax;
+display: block;
+}
+
+.left3 ul li{
+    /* margin-bottom: 1vmax; */
+    color: white;
+    transition: 0.25s;
+}
+
+.left3 ul li:hover{
+    color: #c1889c;
+}
+
+.right3{
+    width: 70%;
+    margin: 9.5vmax;
+}
+
+.right3 ul{
+    list-style: none;
+    display: block;
+}
+.right3 ul li{
+/* margin-bottom: 1.5vmax; */
+color: white;
+transition: 0.25s;
+}
+
+.right3 ul li:hover{
+    color: #c1889c;
+}
+
+.btm{
+    display: flex;
+    /* margin-bottom: 90px; */
+}
+
+.btm li{
+    list-style: none;
+    margin: 2vmax;
+    margin-top: 15vmax;
+}
+
+.lst{
+    margin-top: 9.4vmax;
+    margin-left: 1vmax;
+    /* width: 50px; */
+}
+
+.left3 h2{
+    color: #D61355;
+}
+
+.line1{
+display: flex   ;
+}
+
+.line2{
+    display: flex   ;
+    }
+
+    .line3{
+        display: flex   ;
+        }
+
+@media(max-width:800px){
+    .main{
+     flex-direction: column;
+    } 
+    .left{
+     width: 100%;
+    }
+    .right{
+     width: 100%;
+    }
+ 
+    .right ul{
+     flex-direction: column;
+    }
+ 
+    .second{
+     flex-direction: column;
+    } 
+    .left2{
+     width: 100%;
+     height: 100%;
+    }
+    .right2{
+     width: 100%;
+    }
+    .third{
+     display: none;
+    }
+ }
+ 
+
